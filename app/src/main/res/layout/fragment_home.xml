@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <Button
+        android:id="@+id/dialogcasebutton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="カスタムダイアログ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/casebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:text="いろんなテーマ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/bluecheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="280dp"
+        android:text="青"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/redcheck"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/greencheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="緑"
+        app:layout_constraintEnd_toStartOf="@+id/greycheck"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/redcheck"
+        app:layout_constraintTop_toTopOf="@+id/redcheck" />
+
+    <CheckBox
+        android:id="@+id/yellowcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黄"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/greycheck"
+        app:layout_constraintTop_toTopOf="@+id/greycheck" />
+
+    <CheckBox
+        android:id="@+id/redcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赤"
+        app:layout_constraintEnd_toStartOf="@+id/greencheck"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bluecheck"
+        app:layout_constraintTop_toTopOf="@+id/bluecheck" />
+
+    <CheckBox
+        android:id="@+id/greycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="灰"
+        app:layout_constraintEnd_toStartOf="@+id/yellowcheck"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/greencheck"
+        app:layout_constraintTop_toTopOf="@+id/greencheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
