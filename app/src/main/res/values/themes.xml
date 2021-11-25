@@ -55,10 +55,29 @@
         <item name="colorSecondary">@color/blue</item>
         <item name="colorSurface">#505021</item>
     </style>
-
-    <style name="Theme.Personal_prod_2.green">
+    <style name="Personal_prod_2.red">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/reddark</item>
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSurface">#505021</item>
+    </style>
+    <style name="Personal_prod_2.green">
         <item name="colorPrimary">@color/green</item>
         <item name="colorPrimaryVariant">@color/greendark</item>
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSurface">#505021</item>
+    </style>
+    <style name="Personal_prod_2.grey">
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryVariant">@color/greydark</item>
+        <item name="colorSecondary">@color/grey</item>
+        <item name="colorSurface">#505021</item>
+    </style>
+    <style name="Personal_prod_2.yellow">
+        <item name="colorPrimary">@color/orangelight</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorSecondary">@color/orangelight</item>
+        <item name="colorSurface">#505021</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

@@ -57,12 +57,22 @@ class HomeFragment : Fragment() {
 
         binding.casebutton.setOnClickListener {
             if (binding.bluecheck.isChecked == true) {
-                val color = "blue"
-                val action = HomeFragmentDirections.actionHomeFragmentToCaseFragment(color)
-                findNavController().navigate(action)
+                setcolor("blue")
+            }else if(binding.redcheck.isChecked == true){
+                setcolor("red")
+            }else if(binding.greencheck.isChecked == true){
+                setcolor("green")
+            }else if(binding.greycheck.isChecked == true){
+                setcolor("grey")
+            }else if(binding.yellowcheck.isChecked == true){
+                setcolor("yellow")
             }
-
         }
+    }
+
+    fun setcolor(color: String) {
+        val action = HomeFragmentDirections.actionHomeFragmentToCaseFragment(color)
+        findNavController().navigate(action)
     }
 
     override fun onDestroyView() {
