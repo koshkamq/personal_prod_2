@@ -1,6 +1,9 @@
 # personal_prod_2
 二年次に個人制作したFragment間のテーマ変更アプリ。
 
+# 使用技術
+Android Studio 4.1.3
+
 # 実際の画面  
 ダイアログのテーマ  
 <img src="https://user-images.githubusercontent.com/94834948/162893290-0e42cf03-5506-4225-a11a-26753c8a1970.png" width="230">
